@@ -4,8 +4,8 @@ rock paper Scissors game
 
 
 option = input("Do you want to Start the game(Yes/y or No/n):")
-is_want = False
-is_find = False
+is_want = False     #if user want to continue the game or not
+is_find = False     #this will be used to exti from the main loop
 
 while not is_find:
     if option == 'Yes' or option == 'yes' or option == 'y' or option == 'Y':
